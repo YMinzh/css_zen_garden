@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./img/bground.gif);
+    font-size: 12px;
+    color: #333333;
+}
+a{
+    color: #990000;
+    text-decoration: none;;
+}
+ul{
+
+    list-style: none;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+p{
+    margin-bottom: 12px;
+}
+.page-wrapper{
+    margin: 80px auto 80px 80px;
+    width: 600px;
+    border: black 2px solid;
+    background-color: #f8f8f8;
+    position: relative;
+}
+.page-wrapper .intro header{
+    background : url(./img/header.gif) no-repeat;
+    padding-top: 17px;
+}
+.page-wrapper .intro header h1{
+    background: url(./img/h1.gif) no-repeat 100% 100%;
+    float: left;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 223px;
+}
+.page-wrapper .intro header h2{
+    background: url(./img/h2.gif) no-repeat 100% 100% ;
+    float: right;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 377px;
+}
+
+.page-wrapper .summary{
+    margin-top: 33px;
+    background: url(./img/summary.gif) no-repeat;
+    height: 78px;
+    position: relative;
+}
+.page-wrapper .summary p:first-of-type{
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(./img/mainImage.gif) no-repeat;
+    height: 210px;
+    position: absolute;
+    top: 78px;
+    left: 15px;
+}
+.page-wrapper .summary p:last-of-type{
+    position: absolute;
+    width: 150px;
+    left: 430px;
+    top: 75px;
+}
+.page-wrapper .summary p:last-of-type a{
+    font-weight: bold;
+}
+
+.page-wrapper .preamble{
+    margin-left: 20px;
+    padding-top: 195px;
+    width: 400px;
+}
+h3{
+    margin-top: 16px;
+    width: 400px;
+    height: 39px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.page-wrapper .preamble h3{
+    background: url(./img/preAmble.gif) no-repeat;
+    background-position-x: -5px;
+}
+
+.main>div{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.main .explanation h3{
+    background: url(./img/explanation.gif) no-repeat;
+    background-position-x: -5;
+}
+.main .participation h3{
+    background: url(./img/participation.gif) no-repeat;
+    background-position-x: -5;
+}
+.main .benefits h3{
+    background: url(./img/benefits.gif) no-repeat;
+    background-position-x: -5;
+}
+.main .requirements h3{
+    background: url(./img/requirements.gif) no-repeat;
+    background-position-x: -5;
+}
+footer a{
+    margin-left: 20px;
+}
+footer{
+    background: url(./img/bottomBorder.gif) no-repeat;
+    height: 65px;
+    background-position-y: 25px;
+}
+
+.sidebar{
+    position: absolute;
+    width: 170px;
+    left: 430px;
+    top: 155px;
+}
+.sidebar .wrapper .design-selection .select{
+    background: url(./img/select.gif) no-repeat;
+}
+.sidebar .wrapper h3{
+    height: 15px;
+}
+.sidebar .wrapper .design-archives .archives{
+    background: url(./img/archives.gif) no-repeat;
+}
+
+.sidebar .wrapper .zen-resources .resources{
+    background: url(./img/resources.gif) no-repeat;
+}
+.sidebar li{
+    padding-top: 5px;
+}
+
+.wrapper{
+    padding-bottom: 500px;
+    background: url(./img/linklistBottom.gif) no-repeat;
+    background-position-x: -7px;
+    background-position-y: 490px;
+}
